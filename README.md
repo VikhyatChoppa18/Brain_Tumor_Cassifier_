@@ -20,7 +20,8 @@
 
 <p><strog>Project Demo</strog></p>
 
-[Demo]("https://github.com/VikhyatChoppa18/Brain_Tumor_Classifier_/blob/00e3eee6db2cefdfb6ce92d32d4002048468dcd3/assets/Screencast%20from%2010-17-2024%2012_59_57%20PM.webm")
+[](https://github.com/user-attachments/assets/247c0d35-6d17-4f0c-a6a2-d1437faaaa63)
+
 </body>
 
 
