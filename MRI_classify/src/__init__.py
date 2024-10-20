@@ -1,1 +1,0 @@
-from .class_mr import main
