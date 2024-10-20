@@ -1,0 +1,10 @@
+
+fastapi[all]
+docker
+pandas
+numpy
+plotly
+torch
+scikit-learn
+pillow
+
