@@ -1,0 +1,25 @@
+version: 1
+applications:
+  - appRoot: /
+    backend:
+      phases:
+        preBuild:
+          commands:
+            - echo "Installing dependencies..."
+            - pip install -r requirements.txt
+        build:
+          commands:
+            - echo "Building the FastAPI app..."
+            - uvicorn app:app --host 0.0.0.0 --port 8000
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - echo "Nothing to do for front-end."
+        build:
+          commands:
+            - echo "No build for front-end."
+    artifacts:
+      baseDirectory: /
+      files:
+        - '**/*'
